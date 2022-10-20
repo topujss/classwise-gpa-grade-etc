@@ -1,5 +1,5 @@
 // Gpa finder
-function findGpa(gpa) {
+const findGpa = (gpa) => {
   students.forEach((grade) => {
     if (grade.GPA === gpa) {
       console.log(`
@@ -13,7 +13,7 @@ function findGpa(gpa) {
 }
 
 // CGPA finder
-function findCgpa(cgpa) {
+findCgpa = cgpa => {
   students.forEach((CuGpa) => {
     if (CuGpa.CGPA === cgpa) {
       console.log(`
@@ -27,7 +27,7 @@ function findCgpa(cgpa) {
 }
 
 // grade finder
-findGrade = (grade) => {
+findGrade = grade => {
   students.forEach((gradeLetter) => {
     if (gradeLetter.grade === grade) {
       console.log(`
@@ -41,7 +41,7 @@ findGrade = (grade) => {
 };
 
 // Final result finder
-function findRes(finalResult) {
+const findRes = finalResult => {
   students.forEach((final) => {
     let determine = '';
 
